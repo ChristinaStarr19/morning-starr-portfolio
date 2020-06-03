@@ -64,3 +64,7 @@ p1 {
     background-color: #6fc7b8;
     border-color: #6fc7b8;
 }
+
+.card-body {
+    float: right;
+}
