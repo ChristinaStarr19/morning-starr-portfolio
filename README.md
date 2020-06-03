@@ -1,6 +1,5 @@
 # Responsive Portfolio using Bootstrap and CSS
 
-![Github Badge](https://img.shields.io/github/license/christinastarr19/gt-accessibility-html-homework-01?logo=github&logoColor=red&style=for-the-badge)
 
 ## Table of Contents 
 
@@ -25,7 +24,7 @@ This is my portfolio site, designed to meet the criteria for GT Full-stack Flex 
 It is built using Bootstrap, CSS, and customized based on design mockups provided in class. 
 
 
-![Deployed site for portfolio](assets/images/responsive-portfolio-screenshot.png)
+![Deployed site for portfolio](./assets/images/responsive-portfolio-screenshot.png)
 
 Link to deployed application:
 
