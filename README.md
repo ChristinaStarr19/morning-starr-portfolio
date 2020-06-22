@@ -1,30 +1,24 @@
 # Responsive Portfolio using Bootstrap and CSS
 
+## Table of Contents
 
-## Table of Contents 
-
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [MIT_License](#mit_license)
-
-
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [MIT_License](#mit_license)
 
 ## Installation
 
-1. Clone the repo and 
+1. Clone the repo and
 2. Run the index.html file in default browser.
 
+## Usage
 
-## Usage 
+This is my portfolio site, designed to meet the criteria for GT Full-stack Flex program homework requirements.
 
-This is my portfolio site, designed to meet the criteria for GT Full-stack Flex program homework requirements. 
+It is built using Bootstrap, CSS, and customized based on design mockups provided in class.
 
-It is built using Bootstrap, CSS, and customized based on design mockups provided in class. 
-
-
-![Deployed site for portfolio](./assets/images/responsive-portfolio-screenshot.png)
+![Deployed site for portfolio](assets/images/updated-portfolio.png)
 
 Link to deployed application:
 
@@ -34,11 +28,9 @@ https://christinastarr19.github.io/gt-responsive-portfolio-homework-02/
 
 This was a solo project completed as homework for the Georgia Tech, FullStack Flex program.
 
-
-
 ## MIT_License
 
-Copyright (c) [2020] [Christina Cunningham Starr]
+Copyright (c) [2020][Christina Cunningham Starr]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
