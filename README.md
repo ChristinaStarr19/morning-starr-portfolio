@@ -1,4 +1,4 @@
-# Responsive Portfolio using Bootstrap and CSS
+# Updated Portfolio using Bootstrap and CSS
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ It is built using Bootstrap, CSS, and customized based on design mockups provide
 
 Link to deployed application:
 
-https://christinastarr19.github.io/gt-responsive-portfolio-homework-02/
+https://christinastarr19.github.io/gt-updated-portfolio-homework-07/
 
 ## Credits
 
