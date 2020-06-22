@@ -30,6 +30,14 @@
     ></script>
 
     <!-- Link to stylesheet -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/CSS/style.css" />
   </head>
 
@@ -39,35 +47,54 @@
     <!-- Changed nav bar color in css using class="bg-light" -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <!-- Clicking name will take user to About Me page -->
-      <a class="navbar-brand" href="index.html">Christina C. Starr</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand heading" href="index.html">Christina C. Starr</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-
-    <!-- Named and linked About Me Page -->
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
-          </li>
-          
-    <!-- Named and linked Portfolio Page -->
-          <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          <!-- Named and linked About Me Page -->
+          <li class="nav-item active heading">
+            <a class="nav-link" href="index.html"
+              >About Me<span class="sr-only">(current)</span></a
+            >
           </li>
 
-    <!-- Named and linked Contact Page -->
-         <li class="nav-item active">
-         <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-        </li>
-        
-       </ul>
+          <!-- Named and linked Portfolio Page -->
+          <li class="nav-item active heading">
+            <a class="nav-link" href="portfolio.html"
+              >Portfolio<span class="sr-only">(current)</span></a
+            >
+          </li>
+
+          <!-- Named and linked Contact Page -->
+          <li class="nav-item active heading">
+            <a class="nav-link" href="contact.html"
+              >Contact<span class="sr-only">(current)</span></a
+            >
+          </li>
+
+          <!-- Named and linked Resume Page -->
+          <li class="nav-item active heading">
+            <a class="nav-link" href="resume.html"
+              >Resume<span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
       </div>
     </nav>
 
-        <!-- The card for my contact info -->
-        <section class="card" style="width: 18rem;">
+    <!-- The card for my contact info -->
+    <!-- <section class="card" style="width: 18rem;">
           <section class="card-body">
             <h5 class="card-title">Contact</h5>
             <h6 class="card-subtitle mb-2 text-muted">Information</h6>
@@ -75,13 +102,11 @@
             <a href="mailto:christinastarr19@gmail.com" class="card-link">ChristinaStarr19@gmail.com</a>
             <a href="https://www.linkedin.com/in/christinastarr19/" class="">linkedin.com/in/christinastarr19/</a>
           </section>
-        </section> 
-            
+        </section>  -->
 
     <!-- Container for the main content -->
-    <main class="container contact-page"> 
+    <main class="container contact-page">
       <article>
-    
         <!-- First row containing Contact heading. -->
         <section class="row">
           <section class="col-sm-12">
@@ -91,39 +116,53 @@
 
         <!-- Line Break -->
         <hr />
-        
+
         <!-- Second row containing column, which contains name, email and message form. -->
-          <section class="row contact-background">
+        <section class="row contact-background">
           <section class="col-sm-10 text-align">
             <form>
               <section class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                <label for="gitHub link">GitHub Profile:</label>
+                <a
+                  href="https://github.com/ChristinaStarr19"
+                  target="_blank"
+                  class="card-link"
+                  >https://github.com/ChristinaStarr19</a
+                >
+                <!-- <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email"> -->
               </section>
               <section class="form-group">
-                <label for="exampleFormControlInput1">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                <label for="linkedIn link">LinkedIn Profile:</label>
+                <a
+                  href="https://www.linkedin.com/in/christinastarr19/"
+                  target="_blank"
+                  class="card-link"
+                  >linkedin.com/in/christinastarr19/</a
+                >
+                <!-- <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email"> -->
               </section>
               <section class="form-group">
-                <label for="exampleFormControlInput1">Message</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Message">
+                <label for="exampleFormControlInput1">Email:</label>
+                <a
+                  href="mailto:christinastarr19@yahoo.com"
+                  target="_blank"
+                  class="card-link"
+                  >ChristinaStarr19@yahoo.com</a
+                >
+                <!-- <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email"> -->
               </section>
-              <section>
+              <section class="form-group">
+                <label for="exampleFormControlInput1">Phone Number:</label>
+                <a href="tel:+7063327062">+706-332-7062</a>
+                <!-- <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Message"> -->
+              </section>
+              <!-- <section>
                 <a class="btn btn-primary btn-lg" href="index.html" role="button">Submit</a>
-              </section>
+              </section> -->
             </form>
           </section>
         </section>
       </article>
     </main>
-
-  
   </body>
 </html>
-              
-            
-        
-
-
-  
-    
